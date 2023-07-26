@@ -4,15 +4,40 @@ h1 {
 }
 
 img {
-	width: 100px;
+	width: 75px;
 }
 
-div div {
+div  {
 	margin: auto;
-	width: 33%;
+	width: 65%;
 	height: 250px;
+	display: flex; 
 }
 
 #big_div {
 	border: 5px solid black;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+#sub_div1 {
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	
+}
+
+#sub_div2 {
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#sub_div3 {
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	
 }
